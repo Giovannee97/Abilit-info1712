@@ -36,3 +36,8 @@ t1="t","o","rta"
 print("fetta di torta:",t1[1])
 
 print("lunghezza del verso:", len(t))
+
+d={1:"my",2:"dude", 3:"I ain't gon lie"}
+print(d[3])
+d.popitem()
+print(d)
