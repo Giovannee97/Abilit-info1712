@@ -41,3 +41,27 @@ d={1:"my",2:"dude", 3:"I ain't gon lie"}
 print(d[3])
 d.popitem()
 print(d)
+
+number=23
+running=True
+
+#while running:
+#  guess=int(input("dammi un intero:"))
+
+#  if(guess==number):
+#    print("bene! hai indovinato!")
+#    running=False
+#  elif(guess<number):
+#    print("un po' più alto...")
+#  else:
+#    print("un po' più basso...")
+
+#for i in range(0,10):
+#  print(i)
+
+while running:
+  s=input("non spegnermi!")
+  
+  if s=="spegniti":
+    break
+print("ma perché lo hai fatto?!?!")
