@@ -18,3 +18,13 @@ t3=time.perf_counter()
 v1.extend(v2)
 t4=time.perf_counter()
 print("append command:",t4-t3)
+
+stack=[*range(5)]
+print("originale", stack)
+
+for i in range(5,7):
+  stack.append(i)
+print("ampliato",stack)
+stack.pop(0)
+stack.pop()
+print("poppato",stack)
