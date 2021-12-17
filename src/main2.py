@@ -28,3 +28,11 @@ print("ampliato",stack)
 stack.pop(0)
 stack.pop()
 print("poppato",stack)
+
+t="tupla","tupla","tuuuupla", "l'ho inventato iooo"
+print(t)
+
+t1="t","o","rta"
+print("fetta di torta:",t1[1])
+
+print("lunghezza del verso:", len(t))
